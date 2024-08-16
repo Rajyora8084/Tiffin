@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin </title>
+    <link rel="stylesheet" href="t.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MId-Tiffin</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <img src="https://c.ndtvimg.com/2021-03/69go9vko_copper-thali_625x300_10_March_21.jpg" alt="Tiffin Home"
+                class="home-img">
+            <h1>Welcome to Tiffin Service</h1>
+            <h5>Our mission is to delight your taste buds with fresh dishes crafted .</h5>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <img src="https://miro.medium.com/v2/resize:fit:1200/1*BmiFa5_AUMb9qF0JoQ0abQ.jpeg" alt="About Tiffin"
+                    class="about-img">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>We provide delicious and fresh tiffin services for your daily needs. Our meals are prepared with
+                        care and delivered to your doorsteps.
+                        Tiffin Service is dedicated to bringing delicious, nutritious, and convenient meals directly to
+                        your doorsteps. Our
+                        journey began with a simple idea: to offer a solution for busy individuals and families who
+                        crave home-cooked meals
+                        without the hassle of daily cooking.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://pluspng.com/img-png/veg-thali-png-veg-thali-5-roti-dal-rice-salad-veg-chass-1000.png"
+                        alt="Veg Thali" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Veg Thali 1</h3>
+                        <p class="card-description">A delicious assortment of vegetarian dishes.</p>
+                        <p class="card-price">$1.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="http://pluspng.com/img-png/veg-thali-png-mukhya-bhoj-1064.png" alt="Chicken Curry"
+                        class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">veg thali 2</h3>
+                        <p class="card-description">Spicy and flavorful dish curry served with rice.</p>
+                        <p class="card-price">$2.12</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://haveliindiannepali.com/wp-content/uploads/2022/11/veg-thali.png" alt="Veg Thali"
+                        class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Veg Thali 3</h3>
+                        <p class="card-description">A delicious assortment of vegetarian dishes.</p>
+                        <p class="card-price">$1.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://pluspng.com/img-png/veg-thali-png-exotic-tastes-of-india-from-thali-to-tandoori-484.png"
+                        alt="food" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">veg thali 4</h3>
+                        <p class="card-description">Spicy and flavorful dish curry served with rice.</p>
+                        <p class="card-price">$2.12</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://www.pngkit.com/png/full/260-2607831_veg-indian-thali-background.png"
+                        alt="Veg Thali" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Veg Thali 5</h3>
+                        <p class="card-description">A delicious assortment of vegetarian dishes.</p>
+                        <p class="card-price">$1.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://desibiteskitchener.ca/wp-content/uploads/2021/07/thali.png" alt="food"
+                        class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">veg thali 6</h3>
+                        <p class="card-description">Spicy and flavorful dish curry served with rice.</p>
+                        <p class="card-price">$2.12</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tiffin Service. All rights reserved.</p>
+    </footer>
+
+    <script src="t.js"></script>
+</body>
+
+</html>
